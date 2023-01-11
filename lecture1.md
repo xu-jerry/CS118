@@ -54,3 +54,28 @@
   - two insulated copper wires
 - coaxial cable
 - fiber optic cable
+
+## Two key network-core functions
+- routing: determines source-destination route taken by packets
+  - routing algorithms
+- forwarding: move packets from router's input to appropriate router output
+
+## Network core: packet-switching
+- Packet-switching: hosts break application-layer message into packets
+  - forward packets from one router to the next, across links on path from source to destination
+  - each packet transmitted at full link capacity
+- takes L/R seconds to transmit (push out) L-bit packet into link at R bps
+- store and forward: entire packet must arrive at router before it can be transmitted on next link
+- end-end delay = 2L/R (assuming zero propagation delay)
+- one-hop numerical example:
+  - L = 7.5 Mbits
+  - R = 1.5 Mbps
+  - one-hop transmission delay = 5 s
+
+## Alternative core: circuit switching
+- end-end resources allocated to, reserved for voice "call" btw. source & dest
+- Example: each link as four circuits
+- dedicated resources: no sharing
+  - circuit-like (guaranteed) performance
+- circuit segment idle if not used by call (no sharing)
+- Commonly used in traditional telephone networks
