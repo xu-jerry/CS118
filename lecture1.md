@@ -60,7 +60,7 @@
   - routing algorithms
 - forwarding: move packets from router's input to appropriate router output
 
-## Network core: packet-switching
+## Network core: packet-switching: store-and-forward
 - Packet-switching: hosts break application-layer message into packets
   - forward packets from one router to the next, across links on path from source to destination
   - each packet transmitted at full link capacity
