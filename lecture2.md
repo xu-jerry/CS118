@@ -14,12 +14,12 @@
     - active 10% of the time
   - for circuit switching, max of 10 users
   - with packet switching, with 35 users, the probability more than 10 users at 1 time is 0.04%
-  - Given N users, the probability that x users are active is $P(N, x)= {N \choose k} p^x(1-p)^{N-x}$
+  - Given N users, the probability that x users are active is $P(N, x)= {N \choose x} p^x(1-p)^{N-x}$
 - Q: Is packet switching a "slam dunk winner?"
   - great for bursty data
     - resource sharing
     - simplier, no call setup
-  - excessive congestion possible: packet dely and loss (see the following slides)
+  - excessive congestion possible: packet delay and loss (see the following slides)
     - protocols needed for reliable data transfer, congestion control
 - Q: human analogies of reserved resources (circuit switching) versus on-demand allocation (packet-switching)?
 
