@@ -39,4 +39,3 @@
 - sufficient provisioning of bandwidth
 - replicated, application-layer distributed services
 - congestion control of "elastic" services helps
-- 
