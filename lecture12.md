@@ -27,4 +27,3 @@
 ## NAT: network address translation
 - NAT: all devices in local network share just one IPv4 address as far as outside world is concerned
 - NAT translation table
-- 
