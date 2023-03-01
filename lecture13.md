@@ -68,7 +68,7 @@
 - intra-AS (aka "intra-domain")
 - inter-AS (aka "inter-domain")
 
-## Iter-AS routing
+## Inter-AS routing
 - RIP: Routing Information Protocol [RFC 1723]
   - classic DV: DVs exchanged every 30 secs
   - no longer widely used
